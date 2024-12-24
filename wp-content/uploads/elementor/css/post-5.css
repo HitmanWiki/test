@@ -1,0 +1,85 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-7d7404b: #3ab270;
+    --e-global-color-a561a80: #B26A3A;
+    --e-global-color-8a5a64a: #06070E;
+    --e-global-color-f5e3ef6: #FFFFFF38;
+    --e-global-color-61baf90: #3CB470;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    /* --e-global-typography-fa29f6f-font-family: "Knewave"; */
+    --e-global-typography-fa29f6f-font-size: 400px;
+    --e-global-typography-fa29f6f-font-weight: 400;
+    --e-global-typography-fa29f6f-line-height: 350px;
+    --e-global-typography-3cdbc2f-font-family: "Preahvihear";
+    --e-global-typography-3cdbc2f-font-size: 16px;
+    --e-global-typography-3cdbc2f-font-weight: 400;
+    --e-global-typography-9666fbc-font-family: "Bada";
+    --e-global-typography-9666fbc-font-size: 87px;
+    --e-global-typography-9666fbc-font-weight: 400;
+    --e-global-typography-9666fbc-line-height: 350px;
+    /* --e-global-typography-bf855a4-font-family: "Knewave"; */
+    --e-global-typography-bf855a4-font-size: 148px;
+    --e-global-typography-bf855a4-font-weight: 400;
+    --e-global-typography-bf855a4-line-height: 125px;
+    /* --e-global-typography-9be44e4-font-family: "Knewave"; */
+    --e-global-typography-9be44e4-font-size: 21px;
+    --e-global-typography-9be44e4-font-weight: 400;
+    --e-global-typography-9be44e4-line-height: 37px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-5 {
+        --e-global-typography-9666fbc-font-size: 45px;
+        --e-global-typography-9666fbc-line-height: 3.5rem;
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
